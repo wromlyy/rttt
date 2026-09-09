@@ -12,13 +12,13 @@ load_dotenv()
 # ============= ГЛАВНЫЕ НАСТРОЙКИ =============
 
 # Токен Telegram бота
-BOT_TOKEN = os.getenv("8866301759:AAGZ6YZJho6u2GjhOvENX3cOlIA0ZzlmqsI")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
 
 # ID администратора
-ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "8579582783").split(",")]
+ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "123456789").split(",")]
 
 # Чат ID для логирования
-LOG_CHAT_ID = int(os.getenv("LOG_CHAT_ID", "-5356435006"))
+LOG_CHAT_ID = int(os.getenv("LOG_CHAT_ID", "0"))
 
 # ============= ДИРЕКТОРИИ =============
 
