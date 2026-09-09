@@ -1,0 +1,10 @@
+pyTelegramBotAPI
+tabulate
+requests
+Pillow
+psutil
+opencv-python
+pyautogui
+sounddevice
+soundfile
+numpy
