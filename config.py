@@ -6,7 +6,7 @@ class Config:
         self.app_name = "Windows Update Helper"
         self.temp_path = os.path.join(os.getenv('APPDATA'), self.app_name, "temp_path")
 
-        self.TELEGRAM_API = "8921588723:AAE147Mvc_UZwKmlrWu0F2LSCTAEiKYprsQ"
+        self.TELEGRAM_API = "TOKEN_HERE"
 
         self.encrypted_ids_file = os.path.join(self.temp_path, "localdata.txt")
         self.ENCRYPTION_KEY = self.TELEGRAM_API.split(":")[1]
