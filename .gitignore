@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+temp_bots/
+reports/
+analyzed_bots_copies/
+logs/
+.venv/
